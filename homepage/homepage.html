@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>My Museum Tour</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="homepage.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Wix+Madefor+Display:wght@400;600&display=swap" rel="stylesheet">
@@ -15,12 +15,12 @@
       </div>
     </div>
     <div class="logo-container">
-      <a href="index.html">
+      <a href="./index.html">
       <img id="logo" src="museum-logo.png" alt="Museum Logo">
     </div>
     <nav>
       <ul>
-        <li><a href="#">Οργάνωση Επίσκεψης</a></li>
+        <li><a href="./eggraphi.html">Οργάνωση Επίσκεψης</a></li>
         <li><a href="#">Μουσεία/εκθέσεις</a></li>
         <li><a href="#">Περιοδικές εκθέσεις</a></li>
         <li><a href="#">Είσοδος</a></li>
@@ -35,7 +35,7 @@
         <p>Η πρώτη πλατφόρμα εικονικής περιήγησης σε μουσεία της Ελλάδας</p>
       </div>
       <div class="slider-button">
-        <a href="#" class="visit-button">Οργάνωση επίσκεψης</a>
+        <a href="./eggraphi.html" class="visit-button">Οργάνωση επίσκεψης</a>
       </div>
     </div>
 
@@ -98,27 +98,37 @@
       </div>
     </section>
     <footer>
-        <div class="contact-details">
-        <h3>Επικοινωνία</h3>
-          <ul>
-            <li><i class="university"></i>Athens University of Economics and Business</li>
-            <li><i class="address"></i>Ευελπίδων 47Α & Λευκάδος 33,</li>
-            <li><i class="city"></i>Αθήνα 11362</li>
-          </ul>
+      <div class="contact-details">
+      <h3>Επικοινωνία</h3>
+        <ul>
+          <li><i class="university"></i>Athens University of Economics and Business</li>
+          <li><i class="address"></i>Ευελπίδων 47Α & Λευκάδος 33,</li>
+          <li><i class="city"></i>Αθήνα 11362</li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/your-facebook-page" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/your-instagram-page" target="_blank"><img src="instagram.png" alt="Instagram"></a>
         </div>
-        <div class="newsletter">
-          <h3 class="newsletter-header">Εγγραφείτε στο newsletter</h3>
-          <form action="#" method="post">
-            <input type="email" name="email" required>
-            <button type="submit">Εγγραφή</button>
-          </form>
-        </div>
-        <div class="logo-container">
-          <img src="museum-logo.png" alt="Site Logo">
-        </div>
-    </footer>
-    <div class="accessibility-button">
-        <button class="accessibility-button-icon"></button>
       </div>
-</body>
-</html>
+      <div class="newsletter-header">
+        <h3>Εγγραφείτε στο newsletter</h3>
+      <div class="signup-box">
+       <form action="#" method="post">
+        <input type="email" placeholder="Εισάγετε το e-mail σας">
+       </form>
+      </div>
+      <button class="signup-button">Εγγραφή</button>
+    </div>
+      <div class="logo-container">
+        <a href="./index.html">
+        <img id="logo" src="museum-logo.png" alt="Site Logo">
+      </div>
+  </footer>
+  <a href="#" class="accessibility-link">
+    <button class="accessibility-button" type="button">
+      <img src="accessibility.png" alt="Accessibility Icon">
+    </button>
+  </a>
+  </div>
+  </body>
+  </html>
